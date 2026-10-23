@@ -1,0 +1,37 @@
+{
+  "name": "singleton-pattern-examples",
+  "version": "1.0.0",
+  "description": "TypeScript examples of the Singleton Pattern",
+  "main": "index.js",
+  "scripts": {
+    "example:01": "npx ts-node 01-basic.ts",
+    "example:02": "npx ts-node 02-factory-pattern.ts",
+    "example:03": "npx ts-node 03-with-reset.ts",
+    "example:04": "npx ts-node 04-dependency-chain.ts",
+    "example:05": "npx ts-node 05-advanced.ts",
+    "run:all": "npm run example:01 && npm run example:02 && npm run example:03 && npm run example:04 && npm run example:05",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "design-patterns",
+    "singleton",
+    "typescript",
+    "creational-patterns"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
